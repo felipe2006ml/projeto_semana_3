@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('photo.jpeg');
+    background-size: cover;
+}
+
+.main {
+    background: rgb(227, 227, 228);
+    border: 1px solid rgb(158, 135, 104);
+    width: 40%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5%;
+    opacity: 70%;
+}
+
+h1 {
+    color: rgb(158, 135, 104);
+}
+
+.label {
+    color: black;
+}
+
+.limpar {
+    margin-top: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+}
